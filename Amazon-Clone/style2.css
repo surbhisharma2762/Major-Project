@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;/*it makes the content shorter to include the heigth, width,padding or border in that*/
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width:100px ;
+}
+.logo{
+    background-image: url(images/amazon_logo.png);
+    height: 50px ;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+/* box2 */
+.add-first{
+    color: #ccc;
+    font-size: 0.8rem;
+    margin-left: 15px
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* boxx3 */
+.nav-search{
+    display: flex;
+    background-color: pink;
+    height: 40px;
+    width: 620px;
+    border-radius:4px;
+}
