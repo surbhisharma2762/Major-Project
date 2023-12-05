@@ -117,3 +117,29 @@ span{
     font-size: 0.9rem;
     font-weight: 700;
 }
+/* hero section */
+
+.hero-section{
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+    width: 95%;
+    /* bottom: 25px; instead of this we can give flex to main sec
+    position: relative; */
+}
+.hero-message a{
+    color: #007185;
+}
