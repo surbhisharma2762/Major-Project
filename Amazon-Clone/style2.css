@@ -216,3 +216,19 @@ ul a{
     height: 50px;
     width: 100px;
 }
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 25px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.pages{
+font-size: 0.7rem;
+}
+.copyright{
+    font-size: 0.7rem;
+}
